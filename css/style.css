@@ -259,6 +259,14 @@ h1, h2, h3, h4 {
   font-weight: 700;
   font-size: 13px;
 }
+.card-image {
+  margin: -1.25rem -1.25rem 1rem;
+  width: calc(100% + 2.5rem);
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+  border-bottom: 1px solid var(--border);
+}
 .card h3 {
   font-size: 1.05rem;
   margin-bottom: 0.3rem;
