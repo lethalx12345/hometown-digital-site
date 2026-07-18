@@ -155,7 +155,7 @@ h1, h2, h3, h4 {
   padding-block: 5rem 4.5rem;
   background:
     linear-gradient(180deg, rgb(20 83 45 / 0.18) 0%, rgb(10 30 15 / 0.55) 100%),
-    url("assets/hero-bg.jpg") center/cover no-repeat;
+    url("../assets/hero-bg.jpg") center/cover no-repeat;
   color: #fff;
 }
 .hero h1 {
