@@ -74,6 +74,11 @@ img { max-width: 100%; display: block; }
   font-size: 14px;
   line-height: 1;
 }
+.logo-text {
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--bg-dark);
+}
 .site-nav {
   display: none;
   gap: 22px;
@@ -185,6 +190,12 @@ h1, h2, h3, h4 {
 .hero .trust-item strong,
 .hero .trust-item span { color: #fff; }
 .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-logo {
+  width: 220px;
+  height: auto;
+  margin-bottom: 1.1rem;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.18));
+}
 
 .section > .container > h2 {
   font-size: clamp(1.5rem, 2vw + 0.6rem, 2rem);
