@@ -151,22 +151,34 @@ h1, h2, h3, h4 {
 .section-accent .section-lead { color: rgb(255 255 255 / 0.75); }
 
 .hero {
+  position: relative;
   padding-block: 5rem 4.5rem;
   background:
-    radial-gradient(circle at 120% -10%, rgb(255 255 255 / 1) 0%, transparent 50%),
-    linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
+    linear-gradient(180deg, rgb(20 83 45 / 0.45) 0%, rgb(10 30 15 / 0.65) 100%),
+    url("/assets/hero-bg.jpg") center/cover no-repeat;
+  color: #fff;
 }
 .hero h1 {
-  font-size: clamp(1.75rem, 3.4vw + 0.8rem, 3.2rem);
+  color: #fff;
   max-width: 18ch;
-  color: var(--bg-dark);
 }
 .hero p {
-  font-size: clamp(1rem, 1vw + 0.6rem, 1.15rem);
+  color: rgb(255 255 255 / 0.88);
   max-width: 52ch;
-  color: var(--text-muted);
-  margin: 1rem 0 1.6rem;
 }
+.hero .badges {
+  background: rgb(255 255 255 / 0.18);
+  color: #fff;
+  border: 1px solid rgb(255 255 255 / 0.28);
+}
+.hero .trust-item {
+  background: rgb(255 255 255 / 0.12);
+  color: #fff;
+  border: 1px solid rgb(255 255 255 / 0.22);
+  box-shadow: none;
+}
+.hero .trust-item strong,
+.hero .trust-item span { color: #fff; }
 .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
 
 .section > .container > h2 {
